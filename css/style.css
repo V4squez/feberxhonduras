@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(rgba(36, 37, 41, 0.85), rgba(36, 37, 41, 0.85)), url( "../img/img-fondo-page1.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover !important;
+	background-attachment: fixed;
+    color: #F8F8F8;
+}
+
+.bg-warning {
+    background-color: #FFB703 !important;
+}
+
+.logo-header {
+    width: 35px;
+    height: auto;
+}
+
+.nav-icon {
+    width: 22px;
+    height: auto;
+}
+
+.search-box input {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    font-size: 14px;
+	height: 35px;
+}
+
+.search-box input::placeholder {
+    color: #212529;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+h1, h2, h3, .titulo, .titulo-hero, .titulo-seccion, .titulo-card {
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 1.5px;
+    color: #F8F8F8;
+}
+
+.titulo {
+    font-size: 50px;
+	font-weight: 800;
+    text-align: center;
+}
+#hero {
+    min-height: 95vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url( "../img/fondo-hero.png");
+    background-position: center;
+    background-size: cover;
+	padding-bottom: 60px;
+}
+
+.hero-logo {
+    width: 100px;
+	height: auto;
+}
+
+
+.titulo-hero {
+    font-size: 65px;
+	font-weight: 800;
+    margin: 0;
+}
+
+.subtitulo-honduras {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    letter-spacing: 10px;
+    color: #00A3E0;
+}
+
+#tendencias {
+    padding-top: 100px;    
+    padding-bottom: 80px;
+}
+	
+.card-tendencia {
+    height: 380px;
+    border-radius: 80px;
+    background-position: center;
+    background-size: cover;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.card-principal {
+    height: 440px;
+}
+
+.card-comidas { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url( "../img/comidas.png"); 
+}
+
+.card-fiesta { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url( "../img/fiesta.png"); 
+}
+
+.card-talleres { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url( "../img/talleres.png"); 
+}
+
+.titulo-card {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-galeria {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.contenido-nosotros {
+    max-width: 850px;
+	margin-left: 0 !important;
+	margin-right: auto;
+}
+
+.titulo-seccion {
+    font-size: 36px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#nosotros p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #d1d1d1;
+}
+
+footer {
+    background-color: #1a1b1d;
+    font-size: 13px;
+    color: #888888;
+}
+
+footer a {
+    color: #888888;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-logo {
+    width: 80px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
