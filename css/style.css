@@ -1,191 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-body {
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(rgba(36, 37, 41, 0.85), rgba(36, 37, 41, 0.85)), url( "../img/img-fondo-page1.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-    background-size: cover !important;
-	background-attachment: fixed;
-    color: #F8F8F8;
+body, 
+button, 
+input, 
+select, 
+textarea, 
+.navbar, 
+.table, 
+h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif !important;
 }
 
-.bg-warning {
+header.bg-warning, 
+.advertencia-de-fondo {
     background-color: #FFB703 !important;
 }
 
-.logo-header {
-    width: 35px;
+.encabezado-del-logotipo {
+    width: 35px !important;
     height: auto;
 }
 
-.nav-icon {
-    width: 22px;
+.icono-de-navegacion {
+    width: 22px !important;
     height: auto;
 }
 
-.search-box input {
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    font-size: 14px;
-	height: 35px;
+.cuadro-de-busqueda-aporte {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    border: none !important;
+    font-size: 14px !important;
+    height: 35px !important;
+    max-width: 180px;
 }
 
-.search-box input::placeholder {
-    color: #212529;
+.cuadro-de-busqueda-aporte::placeholder {
+    color: #212529 !important;
 }
 
-.section {
-    padding: 100px 0;
-}
-
-h1, h2, h3, .titulo, .titulo-hero, .titulo-seccion, .titulo-card {
-    font-family: 'Impact', sans-serif;
-    letter-spacing: 1.5px;
-    color: #F8F8F8;
-}
-
-.titulo {
-    font-size: 50px;
-	font-weight: 800;
-    text-align: center;
-}
-#hero {
-    min-height: 95vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url( "../img/fondo-hero.png");
-    background-position: center;
-    background-size: cover;
-	padding-bottom: 60px;
-}
-
-.hero-logo {
-    width: 100px;
-	height: auto;
-}
-
-
-.titulo-hero {
-    font-size: 65px;
-	font-weight: 800;
-    margin: 0;
-}
-
-.subtitulo-honduras {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
-    letter-spacing: 10px;
-    color: #00A3E0;
-}
-
-#tendencias {
-    padding-top: 100px;    
-    padding-bottom: 80px;
-}
-	
-.card-tendencia {
-    height: 380px;
-    border-radius: 80px;
-    background-position: center;
-    background-size: cover;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.card-principal {
-    height: 440px;
-}
-
-.card-comidas { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url( "../img/comidas.png"); 
-}
-
-.card-fiesta { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url( "../img/fiesta.png"); 
-}
-
-.card-talleres { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url( "../img/talleres.png"); 
-}
-
-.titulo-card {
-    font-size: 28px;
-    font-weight: 800;
-}
-
-.img-galeria {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-.contenido-nosotros {
-    max-width: 850px;
-	margin-left: 0 !important;
-	margin-right: auto;
-}
-
-.titulo-seccion {
-    font-size: 36px;
-    font-weight: 800;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-}
-
-#nosotros p {
+.navbar-nav .nav-link {
     font-size: 15px;
-    line-height: 1.6;
-    color: #d1d1d1;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-footer {
-    background-color: #1a1b1d;
-    font-size: 13px;
-    color: #888888;
+.seccion-proximos-eventos {
+    background: url('../img/img-fondo-page2.png') no-repeat center center/cover;
+    background-color: #1a1c20;
+    min-height: 500px;
 }
 
-footer a {
-    color: #888888;
-    text-decoration: none;
+.overlay-multitud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 18, 18, 0.85);
+    z-index: 0;
 }
 
-footer p {
-    margin: 0;
+.tarjeta-destacada {
+    width: 220px;
+    height: 320px;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.footer-logo {
-    width: 80px;
-	height: auto;
+.tarjeta-centro {
+    width: 250px;
+    height: 360px;
+    transform: scale(1.05);
+    z-index: 2;
 }
 
-.fondo-ciudad {
-    background-image: url("../img/tegus-bg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
+.tarjeta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);
+}
+
+.drop-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.flecha-carrusel {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+}
+
+.tabla-eventos th {
+    color: #ffc107 !important;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.img-evento-tabla {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.seccion-cerca-de-ti {
+    background: url('../img/fondo-tegucigalpa.png') no-repeat center center/cover;
+    min-height: 450px;
 }
 
 .overlay-oscuro {
-    background-color: rgba(0, 0, 0, 0.65); 
-    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 0;
 }
-
-.titulo-municipio {
-    font-family: Impact, sans-serif;
-    letter-spacing: 2px;
-}
-
-.img-lateral {
-    opacity: 0.7;
-}
-
-
-
-
-
-
-
-
 
 
 

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEBER X HONDURAS - Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+	
+<body>
+	 <header class="bg-warning">
+  <nav class="navbar navbar-expand-lg navbar-light py-2 px-3">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+      
+      <div class="d-flex align-items-center gap-3">
+        <a class="navbar-brand me-0" href="index.html">
+          <img src="img/logo-pequeno.png" alt="logo" class="encabezado-del-logotipo">
+        </a>
+
+        <div class="search-box">
+          <input type="text" placeholder="Descubre" class="form-control rounded-pill px-3 cuadro-de-busqueda-aporte">
+        </div>
+
+        <div class="d-flex align-items-center gap-2 ms-1">
+          <a href="#" class="d-flex align-items-center">
+            <img src="img/heart-icon.png" alt="Favoritos" class="icono-de-navegacion">
+          </a>
+          <a href="#" class="d-flex align-items-center">
+            <img src="img/user-icon.png" alt="Usuario" class="icono-de-navegacion">
+          </a>
+        </div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-2 fw-bold text-dark">
+          <li class="nav-item"><a class="nav-link text-dark" href="eventos.html">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Municipios</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Info Eventos</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Categorías</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+	
+	<main>
+		<section class="seccion-proximos-eventos position-relative py-5 text-center text-white">
+            <div class="overlay-multitud"></div>
+            
+            <div class="container position-relative z-1 py-4">
+                <h2 class="fw-bold mb-4">Próximos Eventos</h2>
+				
+                <div class="d-flex align-items-center justify-content-center gap-3 gap-md-4 my-4">
+                 
+                    <button class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center flecha-carrusel" type="button" aria-label="Anterior">
+                        &#10094;
+                    </button>
+
+                    <div class="tarjeta-destacada rounded-4 overflow-hidden position-relative shadow">
+                        <img src="img/conciertos.png" alt="Conciertos" class="w-100 h-100 object-fit-cover">
+                        <div class="tarjeta-overlay d-flex align-items-end justify-content-center pb-3">
+                            <h3 class="fw-bold text-uppercase fs-4 m-0 text-white drop-shadow">CONCIERTOS</h3>
+                        </div>
+                    </div>
+					
+					<div class="tarjeta-destacada tarjeta-centro rounded-4 overflow-hidden position-relative shadow">
+                        <img src="img/deportes.png" alt="Deportes" class="w-100 h-100 object-fit-cover">
+                        <div class="tarjeta-overlay d-flex align-items-end justify-content-center pb-3">
+                            <h3 class="fw-bold text-uppercase fs-3 m-0 text-white drop-shadow">DEPORTES</h3>
+                        </div>
+                    </div>
+					
+					<div class="tarjeta-destacada rounded-4 overflow-hidden position-relative shadow">
+                        <img src="img/festivales.png" alt="Festivales" class="w-100 h-100 object-fit-cover">
+                        <div class="tarjeta-overlay d-flex align-items-end justify-content-center pb-3">
+                            <h3 class="fw-bold text-uppercase fs-4 m-0 text-white drop-shadow">FESTIVALES</h3>
+                        </div>
+                    </div>
+					
+					<button class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center flecha-carrusel" type="button" aria-label="Siguiente">
+                        &#10095;
+                    </button>
+					
+				</div>
+		      </div>
+			</section>
+		
+	    <section class="seccion-tabla-eventos bg-dark text-white py-5">
+            <div class="container">
+				<div class="text-center mb-4">
+                  <h1 class="fw-bold display-5 mb-2">Eventos de esta semana</h1>
+                   <p class="text-secondary mb-5">Encuentra actividades que puedes disfrutar en los próximos días.</p>
+				</div>
+
+            <div class="table-responsive">
+                <table class="table table-dark table-borderless align-middle tabla-eventos">
+                    <thead>
+                        <tr class="border-bottom border-secondary text-warning fw-bold">
+                            <th scope="col" class="py-3 text-start ps-4">EVENTO</th>
+                            <th scope="col" class="py-3">FECHA</th>
+                            <th scope="col" class="py-3">LUGAR</th>
+                            <th scope="col" class="py-3">CATEGORIA</th>
+                        </tr>
+                    </thead>
+                  
+					<tbody>
+					
+						<tr class="border-bottom border-secondary">
+                            <td class="py-3 text-start ps-4">
+                                <img src="img/evento1.png" alt="Sin Bandera" class="img-evento-tabla rounded-3">
+                            </td>
+                            <td>08 AGO</td>
+                            <td>Tegucigalpa</td>
+                            <td>Concierto</td>
+                        </tr>
+						
+						<tr class="border-bottom border-secondary">
+                            <td class="py-3 text-start ps-4">
+                                <img src="img/evento2.png" alt="Partido Deportivo" class="img-evento-tabla rounded-3">
+                            </td>
+                            <td>09 AGO</td>
+                            <td>Estadio Nacional</td>
+                            <td>Deportes</td>
+                        </tr>
+						
+						<tr class="border-bottom border-secondary">
+                            <td class="py-3 text-start ps-4">
+                                <img src="img/evento3.png" alt="Feria Gastronómica" class="img-evento-tabla rounded-3">
+                            </td>
+                            <td>10 AGO</td>
+                            <td>San Pedro Sula</td>
+                            <td>Gastronomía</td>
+                        </tr>
+						
+						<tr class="border-bottom border-secondary">
+                            <td class="py-3 text-start ps-4">
+                                <img src="img/evento4.png" alt="Expo Arte" class="img-evento-tabla rounded-3">
+                            </td>
+                            <td>12 AGO</td>
+                            <td>Centro Cultural</td>
+                            <td>Arte</td>
+                        </tr>
+                    </tbody>
+           </table>
+        </div>
+		</div>
+               
+        </section>
+	  
+		<section class="seccion-cerca-de-ti position-relative py-5">
+            <div class="overlay-oscuro"></div>
+            <div class="container position-relative z-1">
+                <h2 class="fw-bold text-white mb-5">Eventos cerca de ti</h2>
+				
+				<div class="row align-items-center gy-4">
+					
+					<div class="col-lg-6 col-12">
+                        <div class="mapa-contenedor rounded-4 overflow-hidden border border-secondary shadow">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.6392180326725!2d-87.20687552587935!3d14.098462386330516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fa300014ffd3b%3A0x84c4493bfbd4b820!2sEstadio%20Nacional%20De%20Tegucigalpa!5e0!3m2!1ses!2shn!4v1789885166544!5m2!1ses!2shn" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+						
+						<div class="mt-3 d-flex gap-2">
+                            <button class="btn btn-light fw-bold rounded-pill px-3">Cambiar ubicación</button>
+                            <button class="btn btn-warning fw-bold rounded-pill px-4">Volver</button>
+                        </div>
+                    </div>
+					
+					<div class="col-lg-6 col-12 ps-lg-5 text-white">
+                        <h3 class="fw-bold display-6 mb-4">Tegucigalpa</h3>
+                        <ul class="list-unstyled lh-lg fs-5">
+                            <li class="mb-2">• Sin Bandera - 08 de agosto</li>
+                            <li class="mb-2">• Festival de Música - 21 de septiembre</li>
+                            <li class="mb-2">• Expo Arte - 23 de septiembre</li>
+                            <li class="mb-2">• Concierto Nacional - 25 de septiembre</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+	</main>
+	
+	<footer class="py-3 bg-dark border-top border-secondary">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between text-center">
+            <p class="mb-2 mb-md-0 text-secondary">© 2026 Feber X Honduras. Todos los derechos reservados</p>
+            <a href="index.html">
+                <img src="img/logo-footer.png" alt="logo" class="img-fluid footer-logo my-2 my-md-0">
+            </a>
+            <div>
+                <a href="#" class="me-3 text-secondary text-decoration-none">Política de privacidad</a>
+                <a href="#" class="text-secondary text-decoration-none">Términos y condiciones</a>
+            </div>
+        </div>
+    </footer>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+	
+ </body>
+</html>
