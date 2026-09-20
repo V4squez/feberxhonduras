@@ -1,155 +1,523 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FEBER X HONDURAS</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+
+    <title>Fiestas | FEBER X Honduras</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-warning px-3">
-                <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="img/logo-pequeno.png" alt="logo" class="img-fluid logo-header">
-                </a>
-				
-				<div class="search-box me-auto my-auto" style="max-width: 200px;">
-                <input type="text" placeholder="Descubre" class="form-control rounded-pill px-3">
-            </div>
 
-            <div class="d-flex align-items-center me-2">
-                <a href="#" class="me-2">
-                    <img src="img/heart-icon.png" alt="Favoritos" class="img-fluid nav-icon">
-                </a>
-                <a href="#">
-                    <img src="img/user-icon.png" alt="Usuario" class="img-fluid nav-icon">
-                </a>
-            </div>
 
-                <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-feber">
+
+        <div class="container-fluid px-3">
+
+        
+            <a class="navbar-brand" href="index.html">
+                <img
+                    src="img/logo-pequeno.png"
+                    alt="FEBER X"
+                    class="logo-header"
+                >
+            </a>
+
+
+           
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal"
+                aria-expanded="false"
+                aria-label="Abrir menú"
+            >
                 <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
 
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+
+            <div
+                class="collapse navbar-collapse"
+                id="menuPrincipal"
+            >
+
+                <ul class="navbar-nav me-auto align-items-lg-center">
+
                     <li class="nav-item">
-                        <a class="nav-link text-dark fw-bold" href="../../../../Documents/eventos-pagina-2/eventos.html">Eventos</a>
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Municipio
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-bold" href="municipios.html">Municipios</a>
+
+                    <li class="nav-item separador">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-list"></i>
+                            Categorías
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-bold" href="#">Info Eventos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-bold" href="#">Tickets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-bold" href="#">Categorías</a>
-                    </li>
+
                 </ul>
+
+
+              
+                <form class="search-form mx-lg-auto my-3 my-lg-0">
+
+                    <div class="search-container">
+
+                        <i class="bi bi-search"></i>
+
+                        <input
+                            type="text"
+                            placeholder="Descubre"
+                            aria-label="Buscar"
+                        >
+
+                    </div>
+
+                </form>
+
+
+              
+                <div class="navbar-icons ms-lg-4">
+
+                    <a href="#" aria-label="Favoritos">
+                        <i class="bi bi-heart-fill"></i>
+                    </a>
+
+                    <span class="icon-separator"></span>
+
+                    <a href="#" aria-label="Usuario">
+                        <i class="bi bi-person"></i>
+                    </a>
+
+                </div>
+
             </div>
 
-        </nav>
-    </div>
+        </div>
+
+    </nav>
 </header>
-	
-	
-	<section id="hero" class="section text-center d-flex align-items-center justify-content-center">
-        <div class="container">
-            <img src="img/hero-logo grande.png" alt="FEBER X Logo" class="img-fluid mb-3 hero-logo">
-            <h1 class="titulo-hero">FEBER X</h1>
-            <h2 class="subtitulo-honduras">HONDURAS</h2>
-        </div>
-    </section>
-	
-	<section id="tendencias" class="section text-center">
-        <div class="container">
-            <h2 class="titulo mb-5">TENDENCIAS</h2>
-            <div class="row align-items-center justify-content-center">
-                
-                <article class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
-                    <div class="card-tendencia card-comidas d-flex align-items-center justify-content-center">
-                        <h3 class="titulo-card">COMIDAS</h3>
-                    </div>
-                </article>
 
-                <article class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
-                    <div class="card-tendencia card-fiesta card-principal d-flex align-items-center justify-content-center">
-                        <h3 class="titulo-card">FIESTA</h3>
-                    </div>
-                </article>
 
-                <article class="col-lg-4 col-md-4 col-12">
-                    <div class="card-tendencia card-talleres d-flex align-items-center justify-content-center">
-                        <h3 class="titulo-card">TALLERES</h3>
-                    </div>
-                </article>
 
-            </div>
-        </div>
-    </section>
-	
-	<section id="eventos-pasados" class="section text-center">
-        <div class="container">
-            <h2 class="titulo mb-5">EVENTOS PASADOS</h2>
-            <div class="row">
-                
-                <article class="col-lg-3 col-md-6 col-12 mb-3 mb-lg-0">
-                    <img src="img/evento1.png" alt="Evento 1" class="img-fluid img-galeria">
-                </article>
+<section class="fiestas-hero">
 
-                <article class="col-lg-3 col-md-6 col-12 mb-3 mb-lg-0">
-                    <img src="img/evento2.png" alt="Evento 2" class="img-fluid img-galeria">
-                </article>
+    <div class="hero-overlay"></div>
 
-                <article class="col-lg-3 col-md-6 col-12 mb-3 mb-md-0">
-                    <img src="img/evento3.png" alt="Evento 3" class="img-fluid img-galeria">
-                </article>
+    <div class="hero-content">
+        <h1>FIESTAS</h1>
+    </div>
 
-                <article class="col-lg-3 col-md-6 col-12">
-                    <img src="img/evento4.png" alt="Evento 4" class="img-fluid img-galeria">
-                </article>
+</section>
+
+
+
+
+
+<nav class="navbar navbar-expand navbar-feber navbar-secundaria">
+
+    <div class="container-fluid px-3">
+
+        <ul class="navbar-nav me-auto align-items-center">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Municipio
+                </a>
+            </li>
+
+            <li class="nav-item separador">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-list"></i>
+                    Categorías
+                </a>
+            </li>
+
+        </ul>
+
+
+        <form class="search-form mx-auto">
+
+            <div class="search-container">
+
+                <i class="bi bi-search"></i>
+
+                <input
+                    type="text"
+                    placeholder="Descubre"
+                    aria-label="Buscar"
+                >
 
             </div>
+
+        </form>
+
+
+        <div class="navbar-icons ms-4">
+
+            <a href="#">
+                <i class="bi bi-heart-fill"></i>
+            </a>
+
+            <span class="icon-separator"></span>
+
+            <a href="#">
+                <i class="bi bi-person"></i>
+            </a>
+
         </div>
+
+    </div>
+
+</nav>
+
+
+
+
+<section class="fiestas-menu">
+
+    <div class="menu-overlay"></div>
+
+    <div class="fiestas-opciones">
+
+        <a href="#jade" class="fiesta-btn">
+            XI Concurso Folklórico<br>
+            Nacional JADE 2026
+        </a>
+
+        <a href="#honduras" class="fiesta-btn">
+            Honduras Nos Une
+        </a>
+
+    </div>
+
+</section>
+
+
+
+
+<nav class="navbar navbar-expand navbar-feber navbar-secundaria">
+
+    <div class="container-fluid px-3">
+
+        <ul class="navbar-nav me-auto align-items-center">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Municipio
+                </a>
+            </li>
+
+            <li class="nav-item separador">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-list"></i>
+                    Categorías
+                </a>
+            </li>
+
+        </ul>
+
+
+        <form class="search-form mx-auto">
+
+            <div class="search-container">
+
+                <i class="bi bi-search"></i>
+
+                <input
+                    type="text"
+                    placeholder="Descubre"
+                >
+
+            </div>
+
+        </form>
+
+
+        <div class="navbar-icons ms-4">
+
+            <a href="#">
+                <i class="bi bi-heart-fill"></i>
+            </a>
+
+            <span class="icon-separator"></span>
+
+            <a href="#">
+                <i class="bi bi-person"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<main class="eventos">
+
+
+
+    <section class="evento-section" id="jade">
+
+        <div class="container">
+
+            <h2>
+                XI Concurso Folklórico<br>
+                Nacional JADE 2026
+            </h2>
+
+
+            <div class="row align-items-center evento-contenido">
+
+                <!-- IMAGEN -->
+                <div class="col-md-5 text-center">
+
+                    <img
+                        src="img/Captura de pantalla 2026-09-19 a las 5.07.44 p. m..png"
+                        alt="XI Concurso Folklórico Nacional JADE 2026"
+                        class="evento-img evento-img-vertical"
+                    >
+
+                </div>
+
+
+                <div class="col-md-7">
+
+                    <div class="evento-texto">
+
+                        <p>
+                            Una celebración de la cultura hondureña que reúne
+                            a grupos folklóricos de diferentes regiones del
+                            país para compartir sus mejores presentaciones
+                            de danza y espectáculo.
+                        </p>
+
+                        <p>
+                            Disfruta de una jornada llena de música,
+                            tradición, color y talento nacional, donde las
+                            nuevas generaciones mantienen vivas las
+                            expresiones culturales de Honduras.
+                        </p>
+
+                        <p class="evento-info">
+                            22 de agosto · Tegucigalpa<br>
+                            Gimnasio del Instituto San José del Carmen<br>
+                            Categoría: Cultura / Fiestas
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
-	
-	<section id="nosotros" class="section text-start">
-		<div class="container">
-			<div class="contenido-nosotros mx-auto">
-                <article class="col-12 mb-5">
-                    <h2 class="titulo-seccion">HISTORIA</h2>
-                    <p>Nuestra plataforma nació con la idea de facilitar la búsqueda de eventos en Honduras. Muchas personas se enteran de conciertos, festivales, obras de teatro o actividades culturales cuando ya han pasado o porque la información está dispersa en diferentes redes sociales. Por eso decidimos crear un sitio web donde cualquier persona pueda encontrar, en un solo lugar, información clara y actualizada sobre los eventos que se realizan en todo el país, incluyendo fechas, horarios, ubicaciones y enlaces oficiales para la compra de boletos.</p>
-                </article>
-				
-				<article class="col-12 mb-5">
-                    <h2 class="titulo-seccion">MISIÓN</h2>
-                    <p>Conectar a las personas con los mejores eventos de Honduras mediante una plataforma digital confiable, práctica y actualizada, que facilite el acceso a información completa y a la compra de entradas de forma rápida y segura.</p>
-                </article>
-				
-				<article class="col-12 mb-5">
-                    <h2 class="titulo-seccion">VISIÓN</h2>
-                    <p>Ser la plataforma líder de consulta de eventos en Honduras, reconocida por brindar información confiable, promover la cultura, el entretenimiento y el turismo, y apoyar a los organizadores para llegar a más personas.</p>
-                </article>
-		    </div>
-		</div>
-	</section>
-	
-	<footer class="py-3">
-		<div class="container d-flex flex-column flex-md-row align-items-center justify-content-between text-center">
-			<p class="mb-2 mb-md-0">© 2026 Feber X Honduras. Todos los derechos reservados</p>
-			<img src="img/logo-footer.png" alt="logo" class="img-fluid footer-logo my-2 my-md-0">
-			<a href="#" class="me-3">Política de privacidad</a>
-            <a href="#">Términos y condiciones</a>
-		</div>
-	</footer>
-	
-	<script src="js/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-	
+
+
+
+    <nav class="navbar navbar-expand navbar-feber navbar-secundaria">
+
+        <div class="container-fluid px-3">
+
+            <ul class="navbar-nav me-auto align-items-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Municipio
+                    </a>
+                </li>
+
+                <li class="nav-item separador">
+                    <a class="nav-link" href="#">
+                        <i class="bi bi-list"></i>
+                        Categorías
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <form class="search-form mx-auto">
+
+                <div class="search-container">
+
+                    <i class="bi bi-search"></i>
+
+                    <input
+                        type="text"
+                        placeholder="Descubre"
+                    >
+
+                </div>
+
+            </form>
+
+
+            <div class="navbar-icons ms-4">
+
+                <a href="#">
+                    <i class="bi bi-heart-fill"></i>
+                </a>
+
+                <span class="icon-separator"></span>
+
+                <a href="#">
+                    <i class="bi bi-person"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <section class="evento-section" id="honduras">
+
+        <div class="container">
+
+            <h2>Honduras Nos Une</h2>
+
+
+            <div class="row align-items-center evento-contenido">
+
+         
+                <div class="col-md-6">
+
+                    <img
+                        src="img/Captura de pantalla 2026-09-19 a las 5.08.33 p. m..png"
+                        alt="Honduras Nos Une"
+                        class="evento-img evento-img-vertical"
+                    >
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <div class="evento-texto">
+
+                        <p>
+                            Celebra los 205 años de Independencia de Honduras
+                            en una de las festividades más representativas
+                            del país.
+                        </p>
+
+                        <p>
+                            Bajo el lema “Honduras nos une”, Tegucigalpa se
+                            llena de música, color, tradición y orgullo
+                            nacional.
+                        </p>
+
+                        <p>
+                            Disfruta de las presentaciones de centros
+                            educativos, bandas y diferentes representaciones
+                            que forman parte de esta tradicional celebración
+                            hondureña.
+                        </p>
+
+                        <p class="evento-info">
+                            15 de septiembre · Tegucigalpa<br>
+                            Estadio Nacional José de la Paz Herrera<br>
+                            Categoría: Fiestas / Cultura
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+
+<footer class="footer-feber">
+
+    <div class="container-fluid">
+
+        <div class="row align-items-center text-center">
+
+            <div class="col-md-4">
+
+                <p class="footer-copy">
+                    ©️ 2026 Feber X Honduras.
+                    Todos los derechos reservados
+                </p>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <img
+                    src="img/logo-footer.png"
+                    alt="FEBER X Honduras"
+                    class="footer-logo"
+                >
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="footer-links">
+
+                    <a href="#">
+                        Política de privacidad
+                    </a>
+
+                    <a href="#">
+                        Términos y condiciones
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
 </body>
 </html>
