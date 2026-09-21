@@ -1,620 +1,120 @@
 <!doctype html>
 <html lang="es">
-
 <head>
-
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Tickets | FEBER X Honduras</title>
-
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
-
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    >
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
 </head>
 
+<body class="bg-dark text-white">
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning px-3">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="img/logo-pequeno.png" alt="logo" class="img-fluid logo-header">
+                </a>
+                
+                <div class="search-box me-auto my-auto" style="max-width: 200px;">
+                    <input type="text" placeholder="Descubre" class="form-control rounded-pill px-3">
+                </div>
 
-<body>
+                <div class="d-flex align-items-center me-2">
+                    <a href="#" class="me-2">
+                        <img src="img/heart-icon.png" alt="Favoritos" class="img-fluid nav-icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/user-icon.png" alt="Usuario" class="img-fluid nav-icon">
+                    </a>
+                </div>
 
-<header>
+                <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-feber">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="eventos.html">Eventos</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="municipios.html">Municipios</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="tickets.html">Tickets</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="Categorías.html">Categorías</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-        <div class="container-fluid px-3">
-
-            <a
-                class="navbar-brand"
-                href="index.html"
-            >
-
-                <img
-                    src="img/logo-pequeno.png"
-                    alt="FEBER X"
-                    class="logo-header"
-                >
-
-            </a>
-
-
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menuPrincipal"
-                aria-controls="menuPrincipal"
-                aria-expanded="false"
-                aria-label="Abrir menú"
-            >
-
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-
-
-            <div
-                class="collapse navbar-collapse"
-                id="menuPrincipal"
-            >
-
-                <ul class="navbar-nav me-auto align-items-lg-center">
-
-                    <li class="nav-item">
-
-                        <a
-                            class="nav-link"
-                            href="#"
-                        >
-
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Municipio
-
-                        </a>
-
-                    </li>
-
-
-                    <li class="nav-item separador">
-
-                        <a
-                            class="nav-link"
-                            href="#"
-                        >
-
-                            <i class="bi bi-list"></i>
-                            Categorías
-
-                        </a>
-
-                    </li>
-
-                </ul>
-
-
-                <form
-                    class="search-form mx-lg-auto my-3 my-lg-0"
-                >
-
-                    <div class="search-container">
-
-                        <i class="bi bi-search"></i>
-
-                        <input
-                            type="text"
-                            placeholder="Descubre"
-                            aria-label="Buscar"
-                        >
-
+    <main>
+        <section class="py-5 text-center">
+            <div class="container py-4">
+                <h1 class="display-4 fw-bold mb-5 text-uppercase">Tickets Oficiales</h1>
+                
+                <div class="row justify-content-center g-5 mb-5">
+                    <div class="col-lg-4 col-md-6" id="caifanes">
+                        <img src="img/WhatsApp Image 2026-09-19 at 20.31.49.jpeg" alt="Caifanes" class="img-fluid rounded-4 shadow border border-secondary mb-4">
+                        <h3 class="fw-bold fs-4 mb-2">CAIFANES</h3>
+                        <p class="text-warning fw-bold mb-1">02 DE SEP • TEGUCIGALPA</p>
+                        <p class="text-secondary mb-4">COLISEUM NACIONAL</p>
+                        <a href="https://www.eticket.hn/eventos.aspx?categoria=1" class="btn btn-warning fw-bold rounded-pill px-4 w-100" target="_blank">Comprar boletos</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6" id="alvaro">
+                        <img src="img/WhatsApp Image 2026-09-19 at 20.35.55.jpeg" alt="Álvaro Díaz" class="img-fluid rounded-4 shadow border border-secondary mb-4">
+                        <h3 class="fw-bold fs-4 mb-2">ÁLVARO DÍAZ</h3>
+                        <p class="text-warning fw-bold mb-1">14 DE SEP • TEGUCIGALPA</p>
+                        <p class="text-secondary mb-4">COLISEUM NACIONAL</p>
+                        <a href="https://www.eticket.hn/eventos.aspx?categoria=1" class="btn btn-warning fw-bold rounded-pill px-4 w-100" target="_blank">Comprar boletos</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6" id="ozuna">
+                        <img src="img/WhatsApp Image 2026-09-19 at 20.36.14.jpeg" alt="Ozuna" class="img-fluid rounded-4 shadow border border-secondary mb-4">
+                        <h3 class="fw-bold fs-4 mb-2">OZUNA</h3>
+                        <p class="text-warning fw-bold mb-1">19 DE SEP • TEGUCIGALPA</p>
+                        <p class="text-secondary mb-4">COLISEUM NACIONAL</p>
+                        <a href="https://www.eticket.hn/eventos.aspx?categoria=1" class="btn btn-warning fw-bold rounded-pill px-4 w-100" target="_blank">Comprar boletos</a>
+                    </div>
+                    
+                </div>
+                
+                <div class="row justify-content-center g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="img/WhatsApp Image 2026-09-19 at 20.30.24.jpeg" alt="Pimpinela" class="img-fluid rounded-4 shadow border border-secondary mb-4">
+                        <h3 class="fw-bold fs-4 mb-2">PIMPINELA</h3>
+                        <p class="text-warning fw-bold mb-1">24 DE SEP • TEGUCIGALPA</p>
+                        <p class="text-secondary mb-4">COLISEUM</p>
+                        <a href="https://bmticket.com/eventos/pimpinela-noticias-del-amor/" class="btn btn-warning fw-bold rounded-pill px-4 w-100" target="_blank">Comprar boletos</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="img/WhatsApp Image 2026-09-19 at 20.31.08.jpeg" alt="Alejandro Sanz" class="img-fluid rounded-4 shadow border border-secondary mb-4">
+                        <h3 class="fw-bold fs-4 mb-2">ALEJANDRO SANZ</h3>
+                        <p class="text-warning fw-bold mb-1">05 DE NOV • TEGUCIGALPA</p>
+                        <p class="text-secondary mb-4">COLISEUM NACIONAL</p>
+                        <a href="https://www.eticket.hn/eventos.aspx?categoria=1" class="btn btn-warning fw-bold rounded-pill px-4 w-100" target="_blank">Comprar boletos</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="img/WhatsApp Image 2026-09-19 at 20.30.37.jpeg" alt="Sinfonia Magica" class="img-fluid rounded-4 shadow border border-secondary mb-4">
+                        <h3 class="fw-bold fs-4 mb-2">SINFONÍA MÁGICA</h3>
+                        <p class="text-warning fw-bold mb-1">07 DE NOV • TEGUCIGALPA</p>
+                        <p class="text-secondary mb-4">COLISEUM NACIONAL</p>
+                        <a href="https://www.eticket.hn/eventos.aspx?categoria=1" class="btn btn-warning fw-bold rounded-pill px-4 w-100" target="_blank">Comprar boletos</a>
                     </div>
 
-                </form>
-
-
-                <div class="navbar-icons ms-lg-4">
-
-                    <a
-                        href="#"
-                        aria-label="Favoritos"
-                    >
-
-                        <i class="bi bi-heart-fill"></i>
-
-                    </a>
-
-
-                    <span class="icon-separator"></span>
-
-
-                    <a
-                        href="#"
-                        aria-label="Usuario"
-                    >
-
-                        <i class="bi bi-person"></i>
-
-                    </a>
-
                 </div>
-
             </div>
-
-        </div>
-
-    </nav>
-
-</header>
-
-
-<section class="tickets-hero">
-
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-
-        <h1>TICKETS</h1>
-
-    </div>
-
-</section>
-
-
-<div class="container hero-content text-center">
-
-</div>
-
-
-<section class="artistas-section">
-
-    <div class="container">
-
-        <div class="artistas-list">
-
-            <a
-                href="#caifanes"
-                class="artista-btn"
-            >
-                CAIFANES
+        </section>
+    </main>
+    <footer class="py-3 bg-dark border-top border-secondary">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between text-center">
+            <p class="mb-2 mb-md-0 text-secondary">© 2026 Feber X Honduras. Todos los derechos reservados</p>
+            <a href="index.html">
+                <img src="img/logo-footer.png" alt="logo" class="img-fluid footer-logo my-2 my-md-0">
             </a>
-
-
-            <a
-                href="#alvaro"
-                class="artista-btn"
-            >
-                ALVARO DIAZ
-            </a>
-
-
-
-            <a
-                href="#ozuna"
-                class="artista-btn"
-            >
-                OZUNA
-            </a>
-
+            <div>
+                <a href="#" class="me-3 text-secondary text-decoration-none">Política de privacidad</a>
+                <a href="#" class="text-secondary text-decoration-none">Términos y condiciones</a>
+            </div>
         </div>
+    </footer>
 
-    </div>
-
-</section>
-
-
-
-<main class="eventos-tickets">
-
-
-
-    <section class="eventos-bloque bloque-morado">
-
-        <div class="container">
-
-            <div class="row justify-content-center g-4">
-
-
-            
-                <div
-                    class="col-12 col-md-6 col-lg-4"
-                    id="caifanes"
-                >
-
-                    <article class="ticket-card">
-
-                        <div class="ticket-image">
-
-                            <img
-                                src="img/WhatsApp Image 2026-09-19 at 20.31.49.jpeg"
-                                alt="Caifanes"
-                            >
-
-                        </div>
-
-
-                        <p class="ticket-date">
-
-                            02 DE SEP
-
-                            <span>
-                                TEGUCIGALPA
-                            </span>
-
-                        </p>
-
-
-                        <p class="ticket-place">
-
-                            COLISEUM NACIONAL
-
-                        </p>
-
-
-                       <a
-   						 href="https://www.eticket.hn/eventos.aspx?categoria=1"
-    						class="btn-comprar"
-    							target="_blank"
-								>
-    						Comprar boletos
-							</a>
-                      
-
-                    </article>
-
-                </div>
-
-
-
-                <div
-                    class="col-12 col-md-6 col-lg-4"
-                    id="alvaro"
-                >
-
-                    <article class="ticket-card">
-
-                        <div class="ticket-image">
-
-                            <img
-                                src="img/WhatsApp Image 2026-09-19 at 20.35.55.jpeg"
-                                alt="Álvaro Díaz"
-                            >
-
-                        </div>
-
-
-                        <p class="ticket-date">
-
-                            14 DE SEP
-
-                            <span>
-                                TEGUCIGALPA
-                            </span>
-
-                        </p>
-
-
-                        <p class="ticket-place">
-
-                            COLISEUM NACIONAL
-
-                        </p>
-
-
-                        <a
-   						 href="https://www.eticket.hn/eventos.aspx?categoria=1"
-    						class="btn-comprar"
-    							target="_blank"
-								>
-    						Comprar boletos
-							</a>
-
-                    </article>
-
-                </div>
-
-
-                <div
-                    class="col-12 col-md-6 col-lg-4"
-                    id="ozuna"
-                >
-
-                    <article class="ticket-card">
-
-                        <div class="ticket-image">
-
-                            <img
-                                src="img/WhatsApp Image 2026-09-19 at 20.36.14.jpeg"
-                                alt="Ozuna"
-                            >
-
-                        </div>
-
-
-                        <p class="ticket-date">
-
-                            19 DE SEP
-
-                            <span>
-                                TEGUCIGALPA
-                            </span>
-
-                        </p>
-
-
-                        <p class="ticket-place">
-
-                            COLISEUM NACIONAL
-
-                        </p>
-
-
-                        <a
-   						 href="https://www.eticket.hn/eventos.aspx?categoria=1"
-    						class="btn-comprar"
-    							target="_blank"
-								>
-    						Comprar boletos
-							</a>
-
-                    </article>
-
-                </div>
-
-
-            </div>
-
-
-            <div class="slider-dots">
-
-                <span></span>
-                <span></span>
-                <span class="active"></span>
-                <span></span>
-                <span></span>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section class="eventos-bloque bloque-rojo">
-
-        <div class="container">
-
-            <div class="row justify-content-center g-4">
-
-
-                <div class="col-12 col-md-6 col-lg-4">
-
-                    <article class="ticket-card">
-
-                        <div class="ticket-image">
-							<img
-                                src="img/WhatsApp Image 2026-09-19 at 20.30.24.jpeg"
-                                alt="Pimpinela"
-							  >
-
-                        </div>
-
-
-                        <p class="ticket-date">
-
-                            24 DE SEPTIEMBRE
-
-                            <span>
-                                TEGUCIGALPA
-                            </span>
-
-                        </p>
-
-
-                        <p class="ticket-place">
-
-                            COLISEUM
-
-                        </p>
-
-
-                     <a
-   						 href="https://bmticket.com/eventos/pimpinela-noticias-del-amor/"
-    						class="btn-comprar"
-    							target="_blank"
-								>
-    						Comprar boletos
-							</a>
-                    </article>
-
-                </div>
-
-
-
-                <div class="col-12 col-md-6 col-lg-4">
-
-                    <article class="ticket-card">
-
-                        <div class="ticket-image">
-							
-                         <img
-                                src="img/WhatsApp Image 2026-09-19 at 20.31.08.jpeg"
-                                alt="Alejandro Sanz"
-							  >
-
-                        </div>
-
-
-                        <p class="ticket-date">
-
-                            05 DE NOV
-
-                            <span>
-                                TEGUCIGALPA
-                            </span>
-
-                        </p>
-
-
-                        <p class="ticket-place">
-
-                            COLISEUM NACIONAL
-
-                        </p>
-
-
-                      
-                        <a
-   						 href="https://www.eticket.hn/eventos.aspx?categoria=1"
-    						class="btn-comprar"
-    							target="_blank"
-								>
-    						Comprar boletos
-							</a>
-
-                    </article>
-
-                </div>
-
-
-
-
-                <div class="col-12 col-md-6 col-lg-4">
-
-                    <article class="ticket-card">
-
-                        <div class="ticket-image">
-							<img
-                                src="img/WhatsApp Image 2026-09-19 at 20.30.37.jpeg"
-                                alt="Sinfonia Magica"
-							  >
-
-                        </div>
-
-
-                        <p class="ticket-date">
-
-                            07 DE NOV
-
-                            <span>
-                                TEGUCIGALPA
-                            </span>
-
-                        </p>
-
-
-                        <p class="ticket-place">
-
-                            COLISEUM NACIONAL
-
-                        </p>
-
-
-                       
-                        <a
-   						 href="https://www.eticket.hn/eventos.aspx?categoria=1"
-    						class="btn-comprar"
-    							target="_blank"
-								>
-    						Comprar boletos
-							</a>
-
-                    </article>
-
-                </div>
-
-
-            </div>
-
-
-            <div class="slider-dots">
-
-                <span></span>
-                <span></span>
-                <span></span>
-                <span class="active"></span>
-                <span></span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-</main>
-
-
-
-<footer class="footer-feber">
-
-    <div class="container">
-
-        <div class="row align-items-center text-center">
-
-
-            <div class="col-lg-4 mb-3 mb-lg-0">
-
-                <p class="footer-copy">
-
-                    © 2026 Feber X Honduras.
-                    Todos los derechos reservados
-
-                </p>
-
-            </div>
-
-
-
-            <div class="col-lg-2 mb-3 mb-lg-0">
-
-                <img
-                    src="img/logo-footer.png"
-                    alt="FEBER X Honduras"
-                    class="footer-logo"
-                >
-
-            </div>
-
-
-
-            <div class="col-lg-6">
-
-                <div class="footer-links">
-
-                    <a href="#">
-                        Política de privacidad
-                    </a>
-
-                    <a href="#">
-                        Términos y condiciones
-                    </a>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</footer>
-
-
-
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
-</script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
-```

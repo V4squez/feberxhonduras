@@ -1,640 +1,101 @@
 <!doctype html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Talleres | FEBER X Honduras</title>
-
-  
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
-
-
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    >
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
 </head>
 
-<body>
+<body class="bg-dark text-white">
 
-<header>
-
-    <nav class="navbar navbar-expand-lg navbar-feber">
-
-        <div class="container-fluid px-3">
-
-
-            <a class="navbar-brand" href="index.html">
-
-                <img
-                    src="img /logo-pequeno.png"
-                    alt="FEBER X"
-                    class="logo-header"
-                >
-
-            </a>
-
-
-         
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menuPrincipal"
-                aria-controls="menuPrincipal"
-                aria-expanded="false"
-                aria-label="Abrir menú"
-            >
-
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-
-
-     
-            <div
-                class="collapse navbar-collapse"
-                id="menuPrincipal"
-            >
-
-
-              
-                <ul class="navbar-nav me-auto align-items-lg-center">
-
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="#">
-
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Municipio
-
-                        </a>
-
-                    </li>
-
-
-                    <li class="nav-item separador">
-
-                        <a class="nav-link" href="#">
-
-                            <i class="bi bi-list"></i>
-                            Categorías
-
-                        </a>
-
-                    </li>
-
-                </ul>
-
-
-       
-                <form class="search-form mx-lg-auto my-3 my-lg-0">
-
-                    <div class="search-container">
-
-                        <i class="bi bi-search"></i>
-
-                        <input
-                            type="text"
-                            placeholder="Descubre"
-                            aria-label="Buscar"
-                        >
-
+    <header class="bg-warning">
+        <nav class="navbar navbar-expand-lg navbar-light py-2 px-3">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-3">
+                    <a class="navbar-brand me-0" href="index.html">
+                        <img src="img/logo-pequeno.png" alt="logo" class="encabezado-del-logotipo">
+                    </a>
+                    <div class="search-box">
+                        <input type="text" placeholder="Descubre" class="form-control rounded-pill px-3 cuadro-de-busqueda-aporte">
                     </div>
-
-                </form>
-
-
-        
-                <div class="navbar-icons ms-lg-4">
-
-                    <a href="#" aria-label="Favoritos">
-
-                        <i class="bi bi-heart-fill"></i>
-
-                    </a>
-
-
-                    <span class="icon-separator"></span>
-
-
-                    <a href="#" aria-label="Usuario">
-
-                        <i class="bi bi-person"></i>
-
-                    </a>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </nav>
-
-</header>
-
-
-
-<section class="talleres-hero">
-
-    <div class="hero-overlay"></div>
-
-
-    <div class="hero-content">
-
-        <h1>TALLERES</h1>
-
-    </div>
-
-</section>
-
-
-
-<nav class="navbar navbar-expand navbar-feber navbar-secundaria">
-
-    <div class="container-fluid px-3">
-
-
-        <ul class="navbar-nav me-auto align-items-center">
-
-            <li class="nav-item">
-
-                <a class="nav-link" href="#">
-
-                    <i class="bi bi-geo-alt-fill"></i>
-                    Municipio
-
-                </a>
-
-            </li>
-
-
-            <li class="nav-item separador">
-
-                <a class="nav-link" href="#">
-
-                    <i class="bi bi-list"></i>
-                    Categorías
-
-                </a>
-
-            </li>
-
-        </ul>
-
-
-      
-        <form class="search-form mx-auto">
-
-            <div class="search-container">
-
-                <i class="bi bi-search"></i>
-
-                <input
-                    type="text"
-                    placeholder="Descubre"
-                    aria-label="Buscar"
-                >
-
-            </div>
-
-        </form>
-
-
-        <div class="navbar-icons ms-4">
-
-            <a href="#">
-
-                <i class="bi bi-heart-fill"></i>
-
-            </a>
-
-
-            <span class="icon-separator"></span>
-
-
-            <a href="#">
-
-                <i class="bi bi-person"></i>
-
-            </a>
-
-        </div>
-
-
-    </div>
-
-</nav>
-
-
-<section class="talleres-menu">
-
-    <div class="menu-overlay"></div>
-
-
-    <div class="talleres-opciones">
-
-
-        <a
-            href="#think-digital"
-            class="taller-btn"
-        >
-
-            Think Digital Today 2026
-
-        </a>
-
-
-        <a
-            href="#expo-imagen"
-            class="taller-btn"
-        >
-
-            Expo Imagen 2026
-
-        </a>
-
-
-    </div>
-
-</section>
-
-
-
-<nav class="navbar navbar-expand navbar-feber navbar-secundaria">
-
-    <div class="container-fluid px-3">
-
-
-        <ul class="navbar-nav me-auto align-items-center">
-
-            <li class="nav-item">
-
-                <a class="nav-link" href="#">
-
-                    <i class="bi bi-geo-alt-fill"></i>
-                    Municipio
-
-                </a>
-
-            </li>
-
-
-            <li class="nav-item separador">
-
-                <a class="nav-link" href="#">
-
-                    <i class="bi bi-list"></i>
-                    Categorías
-
-                </a>
-
-            </li>
-
-        </ul>
-
-
-        <form class="search-form mx-auto">
-
-            <div class="search-container">
-
-                <i class="bi bi-search"></i>
-
-                <input
-                    type="text"
-                    placeholder="Descubre"
-                >
-
-            </div>
-
-        </form>
-
-
-        <div class="navbar-icons ms-4">
-
-            <a href="#">
-
-                <i class="bi bi-heart-fill"></i>
-
-            </a>
-
-
-            <span class="icon-separator"></span>
-
-
-            <a href="#">
-
-                <i class="bi bi-person"></i>
-
-            </a>
-
-        </div>
-
-
-    </div>
-
-</nav>
-
-
-
-
-<main class="talleres-eventos">
-
-
-    <section
-        class="taller-section"
-        id="think-digital"
-    >
-
-        <div class="container">
-
-
-     
-            <h2>
-                Think Digital Today 2026
-            </h2>
-
-
-            <div class="row align-items-center taller-contenido">
-
-
-                <div class="col-md-6">
-
-                    <img
-                        src="img /PHOTO-2026-09-19-17-47-53.jpg"
-                        alt="Think Digital Today 2026"
-                        class="taller-img"
-                    >
-
-                </div>
-
-
-                <div class="col-md-6">
-
-                    <div class="taller-texto">
-
-
-                        <p>
-                            El evento Think Digital C-Level es exclusivo
-                            por invitación.
-                        </p>
-
-
-                        <p>
-                            Al inscribirte en el próximo taller online en vivo,
-                            obtienes gratis una entrada para el evento
-                            presencial del 29 de agosto en Tegucigalpa.
-                        </p>
-
-
-                        <p>
-                            Si no puedes asistir al taller en vivo, tendrás
-                            acceso a la grabación durante 30 días y conservarás
-                            el beneficio de asistir al evento presencial.
-                        </p>
-
-
-                        <p>
-                            Para comprarlo haz click:
-                            https://www.thinkdigital.academy/course/automatizacion-de-marketing-y-ventas-con-ia-del-lead-al-cliente
-                        </p>
-
-
+                    <div class="d-flex align-items-center gap-2 ms-1">
+                        <a href="#" class="d-flex align-items-center"><img src="img/heart-icon.png" alt="Favoritos" class="icono-de-navegacion"></a>
+                        <a href="#" class="d-flex align-items-center"><img src="img/user-icon.png" alt="Usuario" class="icono-de-navegacion"></a>
                     </div>
-
                 </div>
-
-
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-2 fw-bold text-dark">
+                        <li class="nav-item"><a class="nav-link text-dark" href="eventos.html">Eventos</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="municipios.html">Municipios</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="tickets.html">Tickets</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="Categorías.html">Categorías</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+    </header>
 
-        </div>
-
-    </section>
-
-
-
-    <nav class="navbar navbar-expand navbar-feber navbar-secundaria">
-
-        <div class="container-fluid px-3">
-
-
-            <ul class="navbar-nav me-auto align-items-center">
-
-                <li class="nav-item">
-
-                    <a class="nav-link" href="#">
-
-                        <i class="bi bi-geo-alt-fill"></i>
-                        Municipio
-
-                    </a>
-
-                </li>
-
-
-                <li class="nav-item separador">
-
-                    <a class="nav-link" href="#">
-
-                        <i class="bi bi-list"></i>
-                        Categorías
-
-                    </a>
-
-                </li>
-
-            </ul>
-
-
-            <form class="search-form mx-auto">
-
-                <div class="search-container">
-
-                    <i class="bi bi-search"></i>
-
-                    <input
-                        type="text"
-                        placeholder="Descubre"
-                    >
-
+    <main>
+        <section class="py-5 text-center">
+            <div class="container py-4">
+                <h1 class="display-4 fw-bold mb-4 text-uppercase">Talleres</h1>
+                
+                <div class="d-flex justify-content-center gap-3 mb-5 flex-wrap">
+                    <a href="#think-digital" class="btn btn-outline-warning rounded-pill px-4 fw-bold">Think Digital Today 2026</a>
+                    <a href="#expo-imagen" class="btn btn-outline-warning rounded-pill px-4 fw-bold">Expo Imagen 2026</a>
                 </div>
-
-            </form>
-
-            <div class="navbar-icons ms-4">
-
-                <a href="#">
-
-                    <i class="bi bi-heart-fill"></i>
-
-                </a>
-
-
-                <span class="icon-separator"></span>
-
-
-                <a href="#">
-
-                    <i class="bi bi-person"></i>
-
-                </a>
-
             </div>
+        </section>
 
-
-        </div>
-
-    </nav>
-
-
-
-    <section
-        class="taller-section"
-        id="expo-imagen"
-    >
-
-        <div class="container">
-
-
-           
-            <h2>
-                Expo Imagen 2026
-            </h2>
-
-
-            <div class="row align-items-center taller-contenido">
-
-
-                <div class="col-md-6">
-
-                    <img
-                        src="img /WhatsApp Image 2026-09-19 at 17.47.44.jpeg"
-                        alt="Expo Imagen 2026"
-                        class="taller-img"
-                    >
-
+        <section class="container pb-5" id="think-digital">
+            <div class="row align-items-center mb-5 border-bottom border-secondary pb-5">
+                <div class="col-md-6 mb-4 mb-md-0 text-center">
+                    <img src="img/PHOTO-2026-09-19-17-47-53.jpg" alt="Think Digital Today 2026" class="img-fluid rounded-4 shadow border border-secondary">
                 </div>
+                <div class="col-md-6 ps-md-5">
+                    <h2 class="fw-bold text-warning mb-4">Think Digital Today 2026</h2>
+                    <p class="fs-5">El evento Think Digital C-Level es exclusivo por invitación.</p>
+                    <p class="fs-5">Al inscribirte en el próximo taller online en vivo, obtienes gratis una entrada para el evento presencial del 29 de agosto en Tegucigalpa.</p>
+                    <p class="fs-5 mb-4">Si no puedes asistir al taller en vivo, tendrás acceso a la grabación durante 30 días y conservarás el beneficio de asistir al evento presencial.</p>
+                    <a href="https://www.thinkdigital.academy/course/automatizacion-de-marketing-y-ventas-con-ia-del-lead-al-cliente" target="_blank" class="btn btn-warning fw-bold rounded-pill px-4">Comprar y Reservar</a>
+                </div>
+            </div>
+        </section>
 
-                <div class="col-md-6">
-
-                    <div class="taller-texto">
-
-
-                        <p>
-                            Evento con más de 15 talleres especializados
-                            y conferencias sobre publicidad, marketing
-                            y creatividad.
-                        </p>
-
-
-                        <p class="taller-info">
-
-                            24 y 25 de Septiembre - 2026
-
-                        </p>
-
-
-                        <p class="taller-info">
-
-                            Centro de Convenciones,
-                            Hotel Honduras Maya.
-
-                        </p>
-
-
-                        <p>
-                            Para pre-inscribirte o reservar haz click:
-                            https://expoimagen.hn/
-                        </p>
-
-
+        <section class="container pb-5 mb-5" id="expo-imagen">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2 mb-4 mb-md-0 text-center">
+                    <img src="img/WhatsApp Image 2026-09-19 at 17.47.44.jpeg" alt="Expo Imagen 2026" class="img-fluid rounded-4 shadow border border-secondary">
+                </div>
+                <div class="col-md-6 order-md-1 pe-md-5">
+                    <h2 class="fw-bold text-warning mb-4">Expo Imagen 2026</h2>
+                    <p class="fs-5">Evento con más de 15 talleres especializados y conferencias sobre publicidad, marketing y creatividad.</p>
+                    <div class="bg-secondary bg-opacity-25 p-4 rounded-4 border border-secondary mb-4">
+                        <p class="mb-1"><strong>Fecha:</strong> 24 y 25 de Septiembre - 2026</p>
+                        <p class="mb-0"><strong>Lugar:</strong> Centro de Convenciones, Hotel Honduras Maya.</p>
                     </div>
-
+                    <a href="https://expoimagen.hn/" target="_blank" class="btn btn-warning fw-bold rounded-pill px-4">Pre-inscribirse</a>
                 </div>
-
-
             </div>
+        </section>
+    </main>
 
+    <footer class="py-3 bg-dark border-top border-secondary mt-5">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between text-center">
+            <p class="mb-2 mb-md-0 text-secondary">© 2026 Feber X Honduras. Todos los derechos reservados</p>
+            <a href="index.html"><img src="img/logo-footer.png" alt="logo" class="img-fluid footer-logo my-2 my-md-0"></a>
+            <div>
+                <a href="#" class="me-3 text-secondary text-decoration-none">Política de privacidad</a>
+                <a href="#" class="text-secondary text-decoration-none">Términos y condiciones</a>
+            </div>
         </div>
+    </footer>
 
-    </section>
-
-
-</main>
-
-
-
-<footer class="footer-feber">
-
-    <div class="container-fluid">
-
-
-        <div class="row align-items-center text-center">
-
-
-            <div class="col-md-4">
-
-                <p class="footer-copy">
-
-                    ©️ 2026 Feber X Honduras.
-                    Todos los derechos reservados
-
-                </p>
-
-            </div>
-
-
-            <!-- LOGO -->
-            <div class="col-md-4">
-
-                <img
-                    src="img /logo-footer.png"
-                    alt="FEBER X Honduras"
-                    class="footer-logo"
-                >
-
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="footer-links">
-
-                    <a href="#">
-                        Política de privacidad
-                    </a>
-
-                    <a href="#">
-                        Términos y condiciones
-                    </a>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</footer>
-
-
-
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
-</script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
